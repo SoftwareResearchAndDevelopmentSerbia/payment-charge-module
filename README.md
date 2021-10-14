@@ -5,6 +5,7 @@ checkout page.
 
 After copying the module files inside ***app/code*** folder you need to run following commands.
 
+**bin/magento module:enable SoftwareResearchAndDevelopment_PaymentCharge**
 **bin/magento setup:upgrade**  
 **bin/magento setup:di:compile**  
 **bin/magento setup:static-content:deploy -f**  
